@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="13" started-at="2021-04-01T17:30:05Z" finished-at="2021-04-01T17:30:05Z">
+    <groups>
+    </groups>
+    <test name="Regression1" duration-ms="13" started-at="2021-04-01T17:30:05Z" finished-at="2021-04-01T17:30:05Z">
+      <class name="com.demo.testng.SampleTest">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.demo.testng.SampleTest@71a794e5]" name="test1" duration-ms="6" started-at="2021-04-01T12:30:05Z" finished-at="2021-04-01T12:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.demo.testng.SampleTest -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite1 -->
+  <suite name="Suite2" duration-ms="424" started-at="2021-04-01T17:30:05Z" finished-at="2021-04-01T17:30:06Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.demo.cucumber.TestRunner@255b53dc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Regression1" duration-ms="424" started-at="2021-04-01T17:30:05Z" finished-at="2021-04-01T17:30:06Z">
+      <class name="com.demo.cucumber.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.demo.cucumber.TestRunner@255b53dc]" name="setUpClass" is-config="true" duration-ms="273" started-at="2021-04-01T12:30:05Z" finished-at="2021-04-01T12:30:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.demo.cucumber.TestRunner@255b53dc]" name="runScenario" duration-ms="139" started-at="2021-04-01T12:30:06Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-01T12:30:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sunday isn't Friday"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Is it Friday yet?]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.demo.cucumber.TestRunner@255b53dc]" name="tearDownClass" is-config="true" duration-ms="8" started-at="2021-04-01T12:30:06Z" finished-at="2021-04-01T12:30:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.demo.cucumber.TestRunner -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite2 -->
+</testng-results>
