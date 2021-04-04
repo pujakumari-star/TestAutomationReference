@@ -1,7 +1,7 @@
 package com.demo.testng;
 
 import org.testng.annotations.Test;
-
+@author Pushpa
 public class SampleTest {
 
 	@Test
