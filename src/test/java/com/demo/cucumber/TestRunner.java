@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
-
+@Author Puja Kumari
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "Features", glue = "com.Multi", plugin = { "html:target/cucumber-html-report",
 		"json:target/cucumber.json", "pretty:target/cucumber-pretty.txt", "usage:target/cucumber-usage.json",
